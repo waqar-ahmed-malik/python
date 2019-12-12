@@ -1,0 +1,19 @@
+{
+    "Description": "Data required in POST requests in double click",
+    "data": 
+    [
+        {
+            "get account details": 
+            {
+                "reportType": "account",
+                "columns": 
+                [
+                    { "columnName": "agencyId" },
+                    { "columnName": "advertiserId" },
+                    { "columnName":	"accountId", "headerText": "engineAccountId" }
+                ],
+                "statisticsCurrency": "usd"
+            }
+        }
+    ]
+}
